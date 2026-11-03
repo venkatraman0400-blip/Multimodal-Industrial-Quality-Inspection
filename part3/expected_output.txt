@@ -1,0 +1,14 @@
+station day         mic       units   ng  ng_rate  mean_level_db  alarm
+ST1     2026-10-12  MX-200      119    4    0.034           62.2  -
+ST1     2026-10-13  MX-200      121    6    0.050           62.3  -
+ST2     2026-10-12  MX-200      119    2    0.017           62.1  -
+ST2     2026-10-13  MX-200      122    6    0.049           62.4  -
+ST3     2026-10-12  MX-200      120    4    0.033           62.2  -
+ST3     2026-10-13  MX-350      112   19    0.170           65.1  ALARM
+ST4     2026-10-12  MX-200      122    7    0.057           62.4  -
+ST4     2026-10-13  MX-200      125    3    0.024           62.3  -
+MISSING_LEVEL_READINGS 16
+CAMERA ST1 brightness 0.620 OK
+CAMERA ST2 brightness 0.697 OK
+CAMERA ST3 brightness 0.653 OK
+CAMERA ST4 brightness 0.320 LOW
