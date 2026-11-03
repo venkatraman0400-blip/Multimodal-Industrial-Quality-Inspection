@@ -22,11 +22,12 @@ This project explores an industrial quality-inspection workflow using two data m
 │   │   ├── audio_defect_detection.ipynb
 │   │   └── visual_defect_detection.ipynb
 │   ├── PART1_RESULTS.md
+│   ├── notebooks/
+│   │   ├── audio_defect_detection.ipynb
+│   │   └── visual_defect_detection.ipynb
 │   └── results/
-│       ├── predictions.csv
-│       ├── least_confident_test_units.csv
 │       ├── validation_metrics.csv
-│       └── validation_metrics.json
+│       └── README.md
 ├── part2/
 │   └── research_note.md
 ├── part3/
