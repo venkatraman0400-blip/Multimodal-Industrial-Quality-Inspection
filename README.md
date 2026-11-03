@@ -18,9 +18,6 @@ This project explores an industrial quality-inspection workflow using two data m
 ```text
 .
 ├── part1/
-│   ├── notebooks/
-│   │   ├── audio_defect_detection.ipynb
-│   │   └── visual_defect_detection.ipynb
 │   ├── PART1_RESULTS.md
 │   ├── notebooks/
 │   │   ├── audio_defect_detection.ipynb
@@ -74,7 +71,7 @@ Confusion matrices (rows = actual [OK, NG], columns = predicted [OK, NG]):
 
 ### Test predictions
 
-`part1/results/predictions.csv` contains 100 test-unit predictions, modality scores and labels, and the OR-fused final label. The recorded prediction thresholds are 0.35 (acoustic) and 0.13 (visual).
+The supplied project artifacts contain 100 test-unit predictions with modality scores and labels, and an OR-fused final label. The prediction artifact and large intermediate feature caches are retained in the prepared project archive rather than this GitHub repository. The recorded prediction thresholds are 0.35 (acoustic) and 0.13 (visual).
 
 The test labels are unavailable. No test-set accuracy, precision, recall, F1, or ROC-AUC is claimed.
 
