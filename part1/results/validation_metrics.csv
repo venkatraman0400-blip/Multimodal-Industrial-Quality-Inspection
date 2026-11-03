@@ -1,0 +1,3 @@
+modality,threshold,accuracy,balanced_accuracy,ng_precision,ng_recall,ng_f1,roc_auc,tn,fp,fn,tp
+acoustic,0.24,0.880,0.742,0.400,0.571,0.471,0.874,62,6,3,4
+visual,0.10,0.627,0.721,0.156,0.833,0.263,0.737,42,27,1,5
